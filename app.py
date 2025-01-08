@@ -10,7 +10,7 @@ def get_db_connection():
     connection = psycopg2.connect(
         host="34.55.180.159",
         database="temp",
-        user="postgres",
+        user="khushal",
         password="postgres108"
     )
     return connection
